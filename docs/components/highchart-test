@@ -1,0 +1,9 @@
+import * as Highcharts from 'highcharts';
+// Alternatively, this is how to load Highcharts Stock. The Maps and Gantt
+// packages are similar.
+// import Highcharts from 'highcharts/highstock';
+
+// Load the exporting module.
+import * as Exporting from 'highcharts/modules/exporting';
+// Initialize exporting module.
+Exporting(Highcharts);
